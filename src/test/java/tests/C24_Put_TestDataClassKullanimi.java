@@ -37,7 +37,7 @@ public class C24_Put_TestDataClassKullanimi extends BaseUrlJsonPlaceHolder {
             "userId":10,
             "id":70
             }
-     */
+      */
 
         // 1- EndPoint ve Request body hazirlama
         specJsonPlaceHolder.pathParams("pp1","posts","pp2","70");
