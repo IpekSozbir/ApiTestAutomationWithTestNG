@@ -71,37 +71,39 @@ Projede kullanılan temel kütüphaneler:
 │         │   └── TestDataJsonPlaceholder.java
 │         │
 │         └── tests/                  # Tüm API test senaryoları
-│             ├── C01_GetRequest_ResponseBodyYazdirma.java
-│             ├── C02_GetRequest_ResponseBilgilerininManuelTestEdilmesi.java
-│             ├── C03_Get_ResponseDegerleriniOtomasyonIleTestEtme.java
+│             ├── C01_GETRequest_ResponseBodyYazdirma.java
+│             ├── C02_GETApiResponseBilgilerinintestEdilmesi.java
+│             ├── C03_GET_ResponseDegerleriniOtomasyonIleTestEtme.java
 │             ├── C04_JsonObjesiOlusturma.java
 │             ├── C05_JsonObjesiOlusturma.java
-│             ├── C06_Put_ResponseBilgileriAssertion.java
-│             ├── C07_Get_ResponseBodyTesti.java
-│             ├── C08_Post_ResponseBodyTesti.java
-│             ├── C09_Get_TestYaparkenTekrarlardanKurtulma.java
+│             ├── C06_PUT_ResponseBilgileriAssertion.java
+│             ├── C07_GET_ResponseBodyTesti.java
+│             ├── C08_POST_ResponseBodyTesti.java
+│             ├── C09_GET_BodyTekrarlardanKurtulma.java
 │             ├── C10_JsonPathKullanimi.java
-│             ├── C11_Post_JsonPathIleBodyTesti.java
-│             ├── C12_Get_ResponseBodyTestiListKullanimi.java
-│             ├── C13_Get_ExpectedDataOlusturma.java
+│             ├── C11_POST_JsonPathIleBodyTesti.java
+│             ├── C12_GET_ResponseBodyTestiListKullanimi.java
+│             ├── C13_ExpectedDataOlusturma.java
 │             ├── C14_Post_ExpectedDataVeJsonPathIleAssertion.java
 │             ├── C15_Get_SoftAssertIleExpectedDataTesti.java
 │             ├── C16_Put_SoftAssertIleExpectedDataTesti.java
-│             ├── C17_BaseUrlJsonPlaceholderRestapi.java
+│             ├── C17_BaseUrlJsonPlaceHolderRestapi.java
 │             ├── C18_BaseUrlHerokuapp.java
-│             ├── C19_BaseUrlHerokuappQueryParam.java
-│             ├── C20_Get_TestDataClassKullanimi.java
-│             ├── C21_Get_TestDataClassKullanimiDinamik.java
-│             ├── C22_Put_TestDataClassKullanimi.java
-│             ├── C23_Get_TestDataKullanimi.java
-│             ├── C24_Post_TestDataKullanimi.java
-│             ├── C25_Put_DeSerialization.java
-│             ├── C26_Get_DeSerialization.java
-│             ├── C27_Post_Deserialization.java
-│             ├── C28_Put_PojoClass.java
-│             ├── C29_Post_Pojo.java
-│             ├── C30_Get_Pojo.java
-│             └── C31_Post_Pojo.java
+│             ├── C19_BaseUrlHerokuapp2.java
+│             ├── C20_BaseUrlHerokuappQueryParam.java
+│             ├── C21_BaseUrlHerokuappQueryParam.java
+│             ├── C22_Get_TestDataClassKullanimi.java
+│             ├── C23_Get_TestDataClassKullanimiDinamik.java
+│             ├── C24_Put_TestDataClassKullanimi.java
+│             ├── C25_Get_TestDataClassKullanimi.java
+│             ├── C26_Post_TestDataClassKullanimi.java
+│             ├── C27_Put_DeSerialization.java
+│             ├── C28_Get_DeSerialization.java
+│             ├── C29_Post_Deserialization.java
+│             ├── C30_Put_PojoClass.java
+│             ├── C31_Post_Pojo.java
+│             ├── C32_Get_Pojo.java
+│             └── C33_Post_Pojo.java
 │
 ├── pom.xml
 ├── .gitignore
