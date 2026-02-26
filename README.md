@@ -115,7 +115,7 @@ Projede kullanılan temel kütüphaneler:
 ## 🧪 Test Yapısı ve Mantığı
 
 * Testler Rest-Assured + TestNG kullanılarak yazılmıştır
-* Her sınıf belirli bir endpoint veya test senaryosuna odaklanır
+* Her class belirli bir endpoint veya test senaryosuna odaklanır
 * JSON response'lar:
    * JSONPath
    * POJO deserialization
@@ -147,7 +147,7 @@ mvn clean install
 ```
 mvn test
 ```
-5. İsterseniz belirli bir test sınıfını IDE üzerinden çalıştırabilirsiniz.
+5. İsterseniz belirli bir test classını IDE üzerinden çalıştırabilirsiniz.
 
 ---
 
