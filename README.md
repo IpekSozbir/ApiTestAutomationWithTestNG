@@ -108,3 +108,25 @@ Projede kullanılan temel kütüphaneler:
 ├── pom.xml
 ├── .gitignore
 └── README.md
+
+```
+---
+
+## 🧪 Test Yapısı ve Mantığı
+
+* Testler Rest-Assured + TestNG kullanılarak yazılmıştır
+* Her sınıf belirli bir endpoint veya test senaryosuna odaklanır
+* JSON response'lar:
+   * JSONPath
+   * POJO deserialization
+   * SoftAssert / HardAssert kullanılarak doğrulanır
+* Projede uygulanan başlıca senaryolar:
+* GET request ile veri çekme ve doğrulama
+* POST request ile veri oluşturma testleri
+* PUT request ile güncelleme testleri
+* JSON objesi oluşturma ve gönderme
+* TestData class kullanarak dinamik veri üretimi
+* Serialization & Deserialization işlemleri
+* SoftAssert ile çoklu doğrulamalar
+
+  ---
