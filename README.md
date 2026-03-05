@@ -287,3 +287,28 @@ Main libraries used in the project:
 * Multiple validations with SoftAssert
 
 ---
+
+
+## ▶️ Running the Project
+
+1. Clone the repository:
+```
+git clone https://github.com/IpekSozbir/ApiTestAutomationWithTestNG.git
+```
+2. Open the project with IntelliJ IDEA
+3. Install Maven dependencies:
+```
+mvn clean install
+```
+4. To run all tests:
+```
+mvn test
+```
+
+Alternatively, you can run a specific test class directly from the IDE.
+---
+
+## 📝 License
+
+This project is for personal education and portfolio purposes.
+It is a study where I reinforced my knowledge of API test automation through hands-on practice.
